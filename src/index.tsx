@@ -2,13 +2,13 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 
 const App = () => {
-  const [projectName, setProjectName] = React.useState("My Test React Project");
+  const [fontSize, setFontSize] = React.useState(12);
 
   return (
     <>
-      <div>{`This is ${projectName}.`}</div>
-      <button type="button" onClick={() => setProjectName("My Typescript React Project")}>
-        Change name!
+      <div style={{ fontSize }}>This is my test React project.</div>
+      <button type="button" onClick={() => setFontSize(fontSize + 5)}>
+        Increase font size!
       </button>
     </>
   );
