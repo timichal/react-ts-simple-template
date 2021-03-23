@@ -1,8 +1,8 @@
-import * as React from "react";
-import * as ReactDOM from "react-dom";
+import React, { useState } from "react";
+import ReactDOM from "react-dom";
 
 const App = () => {
-  const [fontSize, setFontSize] = React.useState(12);
+  const [fontSize, setFontSize] = useState(12);
 
   return (
     <>
