@@ -7,6 +7,7 @@ module.exports = {
     browser: true,
   },
   rules: {
+    "arrow-body-style": "off",
     "linebreak-style": "off",
     "@typescript-eslint/quotes": ["error", "double"],
     "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
