@@ -11,6 +11,7 @@ module.exports = {
     "linebreak-style": "off",
     "@typescript-eslint/quotes": ["error", "double"],
     "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
+    "react/react-in-jsx-scope": "off",
     "react/function-component-definition": [
       "error",
       {
